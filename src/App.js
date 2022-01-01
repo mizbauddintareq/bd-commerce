@@ -9,6 +9,8 @@ function App() {
       <h2>moni changes</h2>
       <p>new change</p>
       <h2>from moni</h2>
+      <p>git branch setup done</p>
+
     </div>
   );
 }
