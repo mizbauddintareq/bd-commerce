@@ -1,12 +1,10 @@
 import "./App.css";
-import Footer from "./Components/Shared/Footer/Footer";
 import HomeMain from "./Pages/Home/HomeMain/HomeMain";
 
 function App() {
 
   return (
-    <div className="App">
-      <Footer></Footer>       
+    <div className="App">    
       <HomeMain></HomeMain>
       <h1>hey hey hey</h1>
       <h1>hello from asif1</h1>
