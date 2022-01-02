@@ -1,3 +1,7 @@
+#search-bar:focus{
+    outline: none;
+}
+
 .user-icon:hover{
 	cursor: pointer;
 	background-color: rgb(238, 231, 231);
@@ -22,4 +26,11 @@
 
 .phone:hover{
     cursor: pointer;
+}
+
+.nav-menu:hover{
+    color: #0d6efd;
+    cursor: pointer;
+    border-top: #0d6efd 3px solid;
+    transition: ease-in-out 0.2s;
 }
