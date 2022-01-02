@@ -7,11 +7,7 @@ function App() {
   return (
     <div className="App">    
       <HomeMain></HomeMain>
-<<<<<<< HEAD
-=======
        <Footer></Footer>
-      
->>>>>>> main
     </div>
   );
 }
