@@ -3,15 +3,10 @@ import HomeMain from "./Pages/Home/HomeMain/HomeMain";
 import Footer from "./Pages/Shared/Footer/Footer";
 
 function App() {
-
   return (
-    <div className="App">    
+    <div className="App">
       <HomeMain></HomeMain>
-<<<<<<< HEAD
-=======
-       <Footer></Footer>
-      
->>>>>>> main
+      <Footer></Footer>
     </div>
   );
 }
