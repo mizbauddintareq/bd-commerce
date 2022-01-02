@@ -8,14 +8,20 @@ function App() {
   return (
     <div className="App">    
       <HomeMain></HomeMain>
+<<<<<<< HEAD
       <h1>hey hey hey</h1>
       <h1>hello from asif1</h1>
       <h1>hello from moni</h1>
       <h1>hello from mohammed</h1>
       <CustomerReview></CustomerReview>
       
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c11dc6a8c28f33c3017f6cc4563e2c065b5b8adb
        <Footer></Footer>
       
+>>>>>>> main
     </div>
   );
 }
