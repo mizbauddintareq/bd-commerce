@@ -1,7 +1,12 @@
-.user-icon:hover,
-.favorite:hover {
+.user-icon:hover{
 	cursor: pointer;
-	background-color: rgb(194, 189, 189);
+	background-color: rgb(238, 231, 231);
+}
+
+.favorite:hover{
+    cursor: pointer;
+    background-color: rgb(238, 231, 231);
+    color: red;
 }
 
 .cart {
