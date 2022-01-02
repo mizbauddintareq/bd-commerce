@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <Footer></Footer>       
       <HomeMain></HomeMain>
-      <h1>hey hey hey</h1>
       <h1>hello from asif1</h1>
       <h1>hello from moni</h1>
       <h1>hello from mohammed</h1>
