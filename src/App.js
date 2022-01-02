@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import HomeMain from "./Pages/Home/HomeMain/HomeMain";
 
 function App() {
+<<<<<<< HEAD
     return (
         <div className="App">
             <h3>Hello from Mizba Uddin Tareq</h3>
@@ -28,6 +30,13 @@ function App() {
             <p>git branch mamun,, git checkout mamun,, 3 main code </p>
         </div>
     );
+=======
+  return (
+    <div className="App">
+      <HomeMain></HomeMain>
+    </div>
+  );
+>>>>>>> arvind
 }
 
 export default App;

@@ -1,0 +1,25 @@
+.user-icon:hover{
+	cursor: pointer;
+	background-color: rgb(238, 231, 231);
+}
+
+.favorite:hover{
+    cursor: pointer;
+    background-color: rgb(238, 231, 231);
+    color: red;
+}
+
+.cart {
+	cursor: pointer;
+}
+
+.cart-number {
+    padding: 1px 5px;
+    position: absolute;
+    margin: -10px;
+    background-color: red;
+}
+
+.phone:hover{
+    cursor: pointer;
+}
