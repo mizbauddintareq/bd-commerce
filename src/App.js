@@ -1,17 +1,23 @@
-import "./App.css";
-import HomeMain from "./Pages/Home/HomeMain/HomeMain";
+import './App.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Login from './components/Login/Login'
+import SignUp from './components/SignUp/SignUp';
+import AuthProvider from './context/AuthProvider';
 
 function App() {
-
   return (
-    <div className="App">    
-      <HomeMain></HomeMain>
-      <h1>hey hey hey</h1>
-      <h1>hello from asif1</h1>
-      <h1>hello from moni</h1>
-      <h1>hello from mohammed</h1>
-      
-    </div>
+
+      <AuthProvider>
+            <BrowserRouter>
+                <Routes>
+                <Route path='/login' element={<Login/>} />
+                <Route path='/signup' element={<SignUp/>} />
+                </Routes>
+          </BrowserRouter>
+      </AuthProvider>
+
+     
+  
   );
 }
 
