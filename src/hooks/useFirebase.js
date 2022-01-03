@@ -11,7 +11,6 @@ import {
   sendEmailVerification
 } from "firebase/auth";
 import { useEffect, useState } from "react";
-import Modal from "../components/Modal/Modal";
 import initializeFirebaseAuth from "../Firebase/firebase.initialize";
 
 initializeFirebaseAuth();
