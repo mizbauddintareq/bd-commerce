@@ -28,6 +28,11 @@
     cursor: pointer;
 }
 
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+
 .nav-menu:hover{
     color: #0d6efd;
     cursor: pointer;

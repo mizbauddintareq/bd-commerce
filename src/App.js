@@ -1,14 +1,28 @@
-import "./App.css";
-import CustomerReview from "./Pages/About/CustomerReview/CustomerReview";
+import './App.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Login from './Pages/Login/Login'
+import SignUp from './Pages/SignUp/SignUp';
+import AuthProvider from './context/AuthProvider';
+import AboutMain from "./Pages/About/AboutMain/AboutMain";
 import HomeMain from "./Pages/Home/HomeMain/HomeMain";
-import Footer from "./Pages/Shared/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <HomeMain></HomeMain>
-      <Footer></Footer>
-    </div>
+
+      <AuthProvider>
+            <BrowserRouter>
+                <Routes>                  
+                <Route path='/' element={<HomeMain/>} />
+                <Route path='/about' element={<AboutMain/>} />
+                <Route path='/login' element={<Login/>} />
+                <Route path='/signup' element={<SignUp/>} />
+                </Routes>
+          </BrowserRouter>
+      </AuthProvider>
+
+     
+  
+
   );
 }
 
