@@ -1,41 +1,42 @@
-# MERN-Ecommerce
-> Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
+# [Bd commerce](https://the-tann-mann-gaddi-job-task.netlify.app//)
 
-## Author: Le Van Quang
+# Feature
 
-## Install dependencies for server 
-### `npm install`
+- Fast loading
+- Responsive design
+- Multilevel security(JWT)
+- Newsletter signup
+- Wishlist
+- Customer login and registration
+- Admin login
+- Content management capabilities
+- An easy-to-use checkout
+- Order analysis report in admin
+- Total revenue calculator
+- Payment option (PayPal)
+- Email subscription
+- Order History
 
-## Install dependencies for client
-### cd client ---> `npm install`
+## Tech Stack
 
-## Connect to your mongodb and add info in .env
+**Client:** React-Bootstrap,
+React-router,
+React-slick,
+Redux,
+Redux-thunk,
+Slick-Carousel,
+Sweetalert,
+axios.
 
-## Run the client & server with concurrently
-## Run project
-### `npm run dev`
-### cd client `npm start`
+**Server:** Cors,
+Dotenv,
+Express,
+Jsonwebtoken,
+Nodemon.
 
-## Run the Express server only
-### `npm run server`
+## Authors
 
-## Run the React client only
-### `npm run client`
-
-### Server runs on http://localhost:5000 and client on http://localhost:3000
-
-## Accounts
-### User: email: quang1234@gmail.com, password: 123456
-### Admin: email: quang123@gmail.com, password: 123456
-
-### User interface 
-
-![alt](https://res.cloudinary.com/levanquang/image/upload/v1640231508/demo/user/screencapture-localhost-3000-2021-12-23-10_47_28_rfdsen.png)
-
-### Admin interface 
-
-![alt](https://res.cloudinary.com/levanquang/image/upload/v1640231418/demo/admin/screencapture-localhost-3000-admin-2021-12-23-10_48_21_oigr6s.png)
-
-### Cart interface 
-
-![alt](https://res.cloudinary.com/levanquang/image/upload/v1640231583/demo/cart/screencapture-localhost-3000-cart-2021-12-23-10_48_49_lipz6c.png)
+- [Mizba Uddin Tareq](https://www.linkedin.com/in/mizba-uddin-tareq-415a59218/)
+- [Monira Moni](https://www.linkedin.com/in/monira-moni/)
+- [Arvind Debnath](https://www.linkedin.com/in/arvind-debnath)
+- [Asif Mohammad Sifat]()
