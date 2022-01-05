@@ -34,6 +34,8 @@ Express,
 Jsonwebtoken,
 Nodemon.
 
+## Admin: email: quang123@gmail.com, password: 123456
+
 ## Authors
 
 - [Mizba Uddin Tareq](https://www.linkedin.com/in/mizba-uddin-tareq-415a59218/)
